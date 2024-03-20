@@ -1,57 +1,50 @@
-h1{
-  color: #000000;  
+h1 {
+  color: #000000;
   font-size: 70px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   text-shadow: 2px 2px gray;
 }
-body{
-  background-color:#ffffff;  
+body {
+  background-color: #ffffff;
   text-align: center;
 }
-p{
-  color: #708090;
-  border: 2px solid #000000;
-  margin: 20px;
-  padding: 20px;
-}
-button{
+
+button {
   /* display: inline-block; */
   background-color: #ffba25;
   color: #000000;
   border-radius: 10px;
   border-color: #ffba25;
 
-  
- 
   font-weight: bolder;
   font-size: 20px;
   padding: 7px;
   margin: 10px;
-
 }
 
-button:hover{
+button:hover {
   background-color: #000000;
   color: #ffba25;
   border-color: #000000;
   cursor: pointer;
- 
-  
 }
 
-
-#div-c{
+#div-c {
   display: inline-block;
   margin: 10px;
-  }
+}
 
+#p-goals {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: left;
+  margin: 10px;
+}
 
+.t-goals {
+  font-size: 15px;
+text-align: left;
 
-
-
-
-
-
-
+}
 
 /* Using display: inline or block declaration I can change the default behavior of selectors */
