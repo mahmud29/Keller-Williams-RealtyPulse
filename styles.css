@@ -38,13 +38,19 @@ button:hover {
   font-size: 20px;
   font-weight: bolder;
   text-align: left;
-  margin: 10px;
 }
 
 .t-goals {
   font-size: 15px;
-text-align: left;
+  border-radius: 10px;
+  border-color: #ffba25;
+  padding: 10px;
+}
+.delete {
+  background-color: #ffba25;
+  border-radius: 90px;
+  border-color: #ffba25;
+  color: #ffffff;
 
 }
-
 /* Using display: inline or block declaration I can change the default behavior of selectors */
